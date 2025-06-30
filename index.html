@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday! 🎉</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Happy Birthday! <span id="name">Sona</span> 🎂</h1>
+        <p class="message">Wishing you the most amazing day filled with love and joy! 💖</p>
+        
+        <div class="balloons"></div>
+        
+        <button id="confetti-btn">Click for Surprise! 🎉</button>
+        
+        <audio id="bg-music" loop>
+            <source src="assets/birthday-song.mp3" type="audio/mpeg">
+            Your browser does not support audio.
+        </audio>
+        <button id="music-btn">🎵 Toggle Music</button>
+    </div>
+
+    <canvas id="confetti-canvas"></canvas>
+    
+    <script src="script.js"></script>
+</body>
+</html>
